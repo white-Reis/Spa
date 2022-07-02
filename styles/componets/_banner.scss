@@ -1,0 +1,65 @@
+@import '../abstract/variaveis';
+
+.banner {
+    background: url(../imagens/banner.jpeg) 27% center no-repeat;
+min-height: 350px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+opacity: 0.9;
+.inner-banner {
+    padding: 3rem;
+    background-color: $cor-terciaria;
+    opacity: 0.9;
+    border-radius: 45px;
+    h1 {
+        font-size: $tamanho-do-texto;
+        color: $cor-primaria;
+    }
+    h2 {
+        font-size: $tamanho-do-texto/2;
+        color: $cor-secundaria; 
+    }
+}
+}
+    .input {
+        margin: 0 auto;
+        width: 575px;
+        border-radius: 20px;
+        bottom: 4px solid white;
+        background-color: white;
+        input {
+            border-radius: 20px;
+            height: 40px;
+            border: none;
+            width: 540px;
+            outline: none;
+            text-align: center;
+            font-size: 26px;
+        }  
+        &:hover, &focus-within {
+            box-shadow: 1px 1px 8px 1px $cor-primaria;
+            outline: none;
+        }
+    }
+        button {
+            text-transform: uppercase;
+            margin-top: .75rem;
+            outline: none;
+            height: 40px;
+            text-align: center;
+            width: 130px;
+            background-color: $cor-secundaria;
+            color: $cor-primaria;
+            letter-spacing: 1px;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 2px $cor-primaria;
+            border-radius: 40px;
+            &:hover {
+                color: $cor-terciaria;
+                background-color: $cor-primaria;
+            }
+        }

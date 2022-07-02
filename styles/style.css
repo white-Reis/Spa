@@ -1,0 +1,163 @@
+@charset "UTF-8";
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid yellow;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F1E0AC;
+  opacity: 0.9;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: red;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+.input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  bottom: 4px solid white;
+  background-color: white;
+}
+.input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+.input:hover, .inputfocus-within {
+  box-shadow: 1px 1px 8px 1px red;
+  outline: none;
+}
+
+button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: yellow;
+  color: red;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px red;
+  border-radius: 40px;
+}
+button:hover {
+  color: #F1E0AC;
+  background-color: red;
+}
+
+.serviço {
+  margin: 80px;
+}
+.serviço h4 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+  color: yellow;
+}
+.serviço h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+.serviço .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.serviço .cards .card {
+  width: 360px;
+  text-align: center;
+}
+.serviço .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: red;
+}
+.serviço .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: red;
+}
+.serviço .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid yellow;
+}
+.serviço .cards .card .img-container img {
+  max-width: 100%;
+}
+
+.cupom {
+  background-color: red;
+  padding: 4rem;
+  text-align: center;
+}
+.cupom .texto {
+  color: yellow;
+}
+.cupom .texto h2 {
+  color: yellow;
+  font-size: 1.5rem;
+}
+
+#curiosidades {
+  padding: 1rem;
+  text-align: center;
+  margin: 5px;
+}
+#curiosidades x h3 {
+  color: red;
+  font-size: 1.2rem;
+}
+#curiosidades h4 {
+  color: yellow;
+  font-size: 1rem;
+}
+#curiosidades p {
+  margin-top: 5px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
